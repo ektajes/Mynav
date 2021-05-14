@@ -174,8 +174,26 @@ margin:0 auto;
   top:2rem;
 }
 
+#open, #close{
+
+    font-size: 30px;
+    right: 10px;
+    position: absolute;
+    top: -50px;
+    margin: 10px;
+    margin-right: 10px;
+    color: #fff;
+    display: none;
+
+}
+
+
 
 @media screen and (max-width: 767px){
+
+  #open{
+    display: block;
+  }
   .nav-list{
     position: fixed;
     top:0;
@@ -222,30 +240,7 @@ margin:0 auto;
     color:#fff;
   }
 
-  .fa-bars{
-    display: block;
-   
-  }
-  .fa-times{
-    display: none;
-  }
-
-  .fa-times.disp{
-    display: block;
-
-  }
-
-  .fa-bars.fisk{
-    display: none;
-    z-index: -100;
-  }
-  .fa-bars.cisp{
-    display: block;
-  }
-
-  .fa-bars.nisp{
-    display: none;
-  }
+ 
 .submenu .submenu{
   position: initial;
   left:-100px;

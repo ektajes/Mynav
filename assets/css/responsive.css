@@ -1,4 +1,9 @@
 @media screen and (max-width:767px){
+
+  .items h3 {
+    font-size: 1.25rem;
+    margin: 32px 96px -1px -65px;
+}
   .message-box img {
     width: 50%;
 }
@@ -44,16 +49,18 @@ float: none;
   margin-bottom: 15px;
 }
 
-.content-right{
+.content-right {
   position: relative;
   width: 100%;
   float: left;
+  top: 0;
 }
 .images{
   position: relative;
   width: 100%;
   float: none!important;
   margin: 0 auto;
+  top:0;
 }
 .image-box img{
   width: 100%;
@@ -64,4 +71,14 @@ float: none;
     position: relative;
     width: 100%;
   }
+}
+
+@media screen and (max-width:320px){
+
+  .items h3 {
+  
+      font-size: 1.25rem;
+      margin: 12px 96px -1px -65px;
+  
+}
 }

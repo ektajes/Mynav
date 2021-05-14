@@ -173,6 +173,12 @@ margin:0 auto;
 {
   top:2rem;
 }
+#open, #close{
+  font-size: 30px;
+  margin:10px;
+  color: #fff;
+  display: none;
+}
 
 
 @media screen and (max-width: 767px){
@@ -190,6 +196,9 @@ margin:0 auto;
     overflow-y:scroll;
   }
  */
+ #open{
+   display: block;
+ }
 
  .nav-list{
    height:100vh;
@@ -229,17 +238,7 @@ margin:0 auto;
     max-height: initial;
   
   }
-  .menu-icons{
-    display: block;
-    position: absolute;
-    top:10px;
-    color:#fff;
-  }
-
-  .fa-bars{
-    display: block;
-   
-  }
+ 
   /*.fa-times{
     display: none;
   }
@@ -260,6 +259,8 @@ margin:0 auto;
   .fa-bars.nisp{
     display: none;
   }*/
+
+
 .submenu .submenu{
   position: initial;
   left:-100px;
